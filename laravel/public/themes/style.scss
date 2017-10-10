@@ -89,7 +89,7 @@ html,body
 /*#myText li a:focus {color: black; background-color: #9D9D9D;}*/
 #myText li a:focus {color: black; font-size: 1.5em; /*background-color: none;*/}
 #myText li a:active {color: black; font-size: 1.5em; background-color: #E1E1E1;}
-ul.dropdown-menu > li.active a{color: black; background-color: #E1E1E1;}
+#myText ul.dropdown-menu > li.active a{color: black; background-color: rgba(247, 233, 142, 0.8);}
 
 .h3{text-align:center;}
 
@@ -386,6 +386,11 @@ padding-left:0px;
 /*#myName{font-size:3em;}*/
 #myText li a{font-size:1.25em;}
 
+ul.dropdown-menu > li a{color: black; background-color: rgba(247, 233, 142, 0.2);}
+ul#myText.dropdown-menu{color: black; background-color: rgba(254,254,254, 0.2);}
+
+input.ng-pristine{color: black; background-color: rgba(254,254,254, 0.2);}
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -396,6 +401,11 @@ padding-left:0px;
 	}
 /*#myName{font-size:3em;}*/
 #myText li a{font-size:1.25em;}
+
+ul.dropdown-menu > li a{color: black; background-color: rgba(247, 233, 142, 0.2);}
+ul#myText.dropdown-menu{color: black; background-color: rgba(254,254,254, 0.2);}
+
+input.ng-pristine{color: black; background-color: rgba(254,254,254, 0.2);}
 }
 
 $zindex-dropdown-backdrop:  990 !default;

@@ -91,9 +91,9 @@ html, body {
   font-size: 1.5em;
   background-color: #E1E1E1; }
 
-ul.dropdown-menu > li.active a {
+#myText ul.dropdown-menu > li.active a {
   color: black;
-  background-color: #E1E1E1; }
+  background-color: rgba(247, 233, 142, 0.8); }
 
 .h3 {
   text-align: center; }
@@ -332,13 +332,37 @@ ol {
 
   /*#myName{font-size:3em;}*/
   #myText li a {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  ul.dropdown-menu > li a {
+    color: black;
+    background-color: rgba(247, 233, 142, 0.2); }
+
+  ul#myText.dropdown-menu {
+    color: black;
+    background-color: rgba(254, 254, 254, 0.2); }
+
+  input.ng-pristine {
+    color: black;
+    background-color: rgba(254, 254, 254, 0.2); } }
 @media (min-width: 1200px) {
   .body {
     /*background-color: grey;*/ }
 
   /*#myName{font-size:3em;}*/
   #myText li a {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+
+  ul.dropdown-menu > li a {
+    color: black;
+    background-color: rgba(247, 233, 142, 0.2); }
+
+  ul#myText.dropdown-menu {
+    color: black;
+    background-color: rgba(254, 254, 254, 0.2); }
+
+  input.ng-pristine {
+    color: black;
+    background-color: rgba(254, 254, 254, 0.2); } }
 
 /*# sourceMappingURL=style.css.map */
